@@ -18,6 +18,9 @@ inputs:
   arch:
     description: "OS Architecture to match in release package. Specify this parameter if the repository releases do not follow a normal convention otherwise it will be auto-detected."
     required: false
+  name:
+    description: "Binary file base name to use."
+    required: false
   extension:
     description: "Custom file extension to match in release package.  Specify this parameter if the repository releases do not provide a .tar.gz or .zip format release."
     required: false
